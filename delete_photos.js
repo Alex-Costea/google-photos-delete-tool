@@ -35,7 +35,7 @@ let deleteTask = setInterval(async () => {
 
 
     checkboxes.forEach((checkbox) => { checkbox.click() });
-    console.log("[INFO] Deleting", checkboxes.length, "images");
+    console.log("[INFO] Deleting images");
 
     setTimeout(() => {
         try {
